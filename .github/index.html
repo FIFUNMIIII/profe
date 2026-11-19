@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Form</title>
+</head>
+<body>
+    <header>
+        <h1>Created by Ogundele Fifunmi</h1>
+    </header>
+    <form>
+       <label for="name">Your name</label> 
+       <input id="name" name="name"
+               type="text" required>
+        <label for="email">Email</label>
+        <input id="email"name="email"
+               type="email"required>
+        <button type="email"submit>Join</button>
+    </form>
+
+    <form>
+       <label for="name"Your name</label>
+        <input id=""name" name="name"type="text"
+        placeholder="Your name"autocomplete="name"required>
+        <label for="email">Email</label>
+        <input id="email"name "email" type="email"
+        placeholder="you@example.com"autocomplete="email" required>
+        <button type="submit">Join</button>
+    </form>
+
+    <style>
+    header {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    form {
+        background-color: white;
+        width: 350px;
+        margin: 80px;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        display: block;
+        font-size: 15px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 8px;
+    }
+
+    input {
+        width:100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: 1px solid #cce;
+        border-radius: 6px;
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+
+    input:focus {
+     outline: none;
+     border: 2px solid #2474c6;
+    }
+    button {
+        width: 100%;
+        padding: 13px;
+        background-color: #2474c6;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+
+    button-hover {
+        background-color: #15528f;
+    }
+    </style>
+</body>
+</html>
